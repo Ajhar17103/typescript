@@ -14,5 +14,11 @@ let c = [];
 c.push({ name: "azharul Islam", Salary: 2500 }, { name: "Nazmus Sakib", Salary: 25000 });
 console.log(c);
 let total;
-let totalSalary = c.reduce((arra, index) => total += arra.Salary, 0);
+let totalSalary = c.reduce((arra, index) => total += index.Salary, 0);
 console.log(totalSalary);
+/* function signatures */
+let Add;
+Add = (a, b, c) => {
+    return c === 'add' ? a + b : a - b;
+};
+console.log(Add(10, 20, "ad"));
