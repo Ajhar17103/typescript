@@ -34,3 +34,4 @@ class Player {
     }
 }
 const mashrafi = new Player("Mashrafi", 40, "bangladesh");
+const Sakib = new Player("Sakib", 40, "bangladesh");
