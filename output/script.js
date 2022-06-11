@@ -22,3 +22,15 @@ Add = (a, b, c) => {
     return c === 'add' ? a + b : a - b;
 };
 console.log(Add(10, 20, "ad"));
+/* class */
+class Player {
+    constructor(n, a, c) {
+        this.name = n;
+        this.age = a;
+        this.country = c;
+    }
+    play() {
+        console.log(`${this.name},${this.age},${this.country}`);
+    }
+}
+const mashrafi = new Player("Mashrafi", 40, "bangladesh");
