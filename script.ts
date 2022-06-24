@@ -65,4 +65,22 @@ players.push(mashrafi);
 
  
 
+/* interface */
+
+interface RectangleOptions{
+   width:number,
+   height:number,
+}
+
+function drewRectangle(options:RectangleOptions){
+let width = options.width;
+let height = options.height
+let rectangle: Number
+ console.log( rectangle = width * height )
+}
+
+drewRectangle({
+   width:10,
+   height:10
+})
 

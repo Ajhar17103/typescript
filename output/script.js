@@ -29,3 +29,13 @@ Sakib.name = "Azharul Islam";
 const players = [];
 players.push(Sakib);
 players.push(mashrafi);
+function drewRectangle(options) {
+    let width = options.width;
+    let height = options.height;
+    let rectangle;
+    console.log(rectangle = width * height);
+}
+drewRectangle({
+    width: 10,
+    height: 10
+});
