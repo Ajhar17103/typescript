@@ -49,31 +49,20 @@ console.log(Add(10,20, "ad"))
 /* class */
 
 
-class Player{
-   name:string;
-   age:number;
-   country:string;
 
-   constructor(n:string, a:number, c:string){
-      this.name=n;
-      this.age=a;
-      this.country=c;
-   }
-
-   play(){
-      console.log(`${this.name},${this.age},${this.country}`)
-   }
-  
-}
-
+import {Player} from "./src/classes/Player.js"
 
 const mashrafi= new Player("Mashrafi",40,"bangladesh");
 
 const Sakib= new Player("Sakib",40,"bangladesh");
 
+Sakib.name="Azharul Islam"
+
 const players: Player[] = []
 
 players.push(Sakib);
 players.push(mashrafi);
+
+ 
 
 

@@ -1,4 +1,3 @@
-"use strict";
 const names = "I'm Azharul";
 console.log(names);
 /* dynamic veriable */
@@ -23,18 +22,10 @@ Add = (a, b, c) => {
 };
 console.log(Add(10, 20, "ad"));
 /* class */
-class Player {
-    constructor(n, a, c) {
-        this.name = n;
-        this.age = a;
-        this.country = c;
-    }
-    play() {
-        console.log(`${this.name},${this.age},${this.country}`);
-    }
-}
+import { Player } from "./src/classes/Player.js";
 const mashrafi = new Player("Mashrafi", 40, "bangladesh");
 const Sakib = new Player("Sakib", 40, "bangladesh");
+Sakib.name = "Azharul Islam";
 const players = [];
 players.push(Sakib);
 players.push(mashrafi);
