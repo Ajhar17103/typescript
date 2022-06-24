@@ -84,3 +84,18 @@ drewRectangle({
    height:10
 })
 
+
+/* generics */ 
+
+const addID = <T> (obj:T)=>{
+   let id =Math.floor(Math.random()*100);
+   console.log(id)
+   return{...obj, id}
+}
+
+let user = addID({
+   name:'umma',
+   age:26,
+   country:'BD'
+})
+
